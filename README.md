@@ -127,11 +127,11 @@ Python 3.11, Django 4.2, DRF 3.15, Django Debug Toolbar 4.3
 
 1. Склонируйте репозиторий:
    ```
-   git@github.com:tanja-ovc/utf-test-task.git
+   git clone git@github.com:tanja-ovc/utf-test-task.git
    ```
    или
    ```
-   https://github.com/tanja-ovc/utf-test-task.git
+   git clone https://github.com/tanja-ovc/utf-test-task.git
    ```
    
 2. Убедитесь, что находитесь в директории проекта ```utf-test-task/```
@@ -169,6 +169,11 @@ Python 3.11, Django 4.2, DRF 3.15, Django Debug Toolbar 4.3
    python3 manage.py loaddata test_data.json
    ```
 
-9. Сделайте запрос по адресу http://127.0.0.1:8000/api/v1/foods/. Вместе с выдачей по запросу справа вы увидите панель Django Debug Toolbar, которую вы можете использовать для анализа запроса.
+9. Запустите локальный сервер:
+   ```
+   python3 manage.py runserver
+   ```
+
+10. Сделайте запрос по адресу http://127.0.0.1:8000/api/v1/foods/. Вместе с выдачей по запросу справа вы увидите панель Django Debug Toolbar, которую вы можете использовать для анализа запроса.
 
     <img width="899" alt="Screenshot 2024-04-14 at 00 10 19" src="https://github.com/tanja-ovc/utf-test-task/assets/85249138/e77eb3c5-88c8-417a-8c44-fd93d055604e">
